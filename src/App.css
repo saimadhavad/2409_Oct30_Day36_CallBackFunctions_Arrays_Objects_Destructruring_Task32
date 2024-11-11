@@ -1,28 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Neucha&family=Sixtyfour+Convergence&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Gloria+Hallelujah&family=Neucha&family=Pangolin&family=Patrick+Hand&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Comfortaa:wght@300..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Nanum+Gothic+Coding&family=Orbitron:wght@400..900&family=Slabo+27px&display=swap');
 
 body {
-  background: #6D6027;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #D3CBB8, #6D6027);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #D3CBB8, #6D6027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-/* background-repeat: no-repeat; */
+  background: #16222a;  
 }
 .App {
   text-align: center;
-  margin: 10px auto;
   width: 900px;
-  background: #6D6027;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #D3CBB8, #6D6027);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #D3CBB8, #6D6027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
-  padding: 30px;
+  margin: 10px auto;
+  background: linear-gradient(to right, #16222a, #3a6073); 
+  padding: 25px;
+  color:white;
+  border: 1px solid white;
+  box-shadow: 10px 10px 15px white;
 }
-h1,h3 {
-  font-family: "Gloria Hallelujah", cursive;
-  font-weight: 900;
+h1,h2  {
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
   font-style: normal;
 }
-p {
-  font-family: "Pangolin", cursive;
+button {
+  padding: 10px;
+  border-radius: 10px;
+  border: 0px;
+  margin: 10px;
+  font-family: "ABeeZee", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
